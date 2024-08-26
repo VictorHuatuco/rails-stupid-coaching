@@ -1,0 +1,13 @@
+<h1 class="m-3"">Stupid Coaching</h1>
+<div class="border-start m-3 border-5 p-3 fs-4">
+  <p><%= params[:question] %></p>
+  <p>- You</p>
+</div>
+<div class="border-start m-3 border-5 p-3 fs-4">
+  <p><%= @answer %></p>
+  <p>-Your coach</p>
+</div>
+
+<div>
+  <%= link_to 'Ask a new question', ask_path, class: "btn btn-primary m-3" %>
+</div>
